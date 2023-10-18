@@ -1,0 +1,25 @@
+.card-img-top{
+    height:20rem;
+    width: 15rem;
+}
+
+.cart {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  
+  .cart-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .cart-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
